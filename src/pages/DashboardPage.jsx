@@ -45,7 +45,21 @@ function DashboardPage() {
               boxShadow: '0 2px 6px rgba(0,0,0,0.08)',
             }}
           >
-            <span style={{ fontSize: 28, marginBottom: 8 }}>{link.icon}</span>
+            <span
+              style={{
+                fontSize: 26,
+                marginBottom: 8,
+                background: '#e8f5e9',
+                width: 52,
+                height: 52,
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              {link.icon}
+            </span>
             {link.label}
           </a>
         ))}
