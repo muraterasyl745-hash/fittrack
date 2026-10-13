@@ -23,13 +23,13 @@ function DashboardPage() {
           marginBottom: 24,
         }}
       >
-        <h1 style={{ margin: 0, fontSize: '26px', lineHeight: '1.3', fontWeight: 'normal' }}>
+        <h1 style={{ margin: 0, fontSize: '26px', lineHeight: '1.3', fontWeight: 'normal', color: '#fff' }}>
           Добро пожаловать в
         </h1>
-        <h2 style={{ margin: '5px 0 12px 0', fontSize: '32px', lineHeight: '1.3', fontWeight: 'bold' }}>
+        <h2 style={{ margin: '5px 0 12px 0', fontSize: '32px', lineHeight: '1.3', fontWeight: 'bold', color: '#fff' }}>
           FitTrack!
         </h2>
-        <p style={{ margin: 0, opacity: 0.9 }}>
+        <p style={{ margin: 0, opacity: 0.95, color: '#fff' }}>
           Вы вошли как: <strong>{user?.email}</strong>
         </p>
       </div>
